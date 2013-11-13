@@ -1,0 +1,36 @@
+{
+  "name": "isbn-cover",
+  "version": "0.0.1",
+  "description": "get a book cover image from isbn",
+  "main": "isbn-cover.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eighttrackmind/isbn-cover.git"
+  },
+  "keywords": [
+    "isbn",
+    "cover",
+    "book",
+    "amazon",
+    "picture",
+    "photo",
+    "image"
+  ],
+  "author": "Boris Cherny <boris@performancejs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eighttrackmind/isbn-cover/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-umd": "git+https://github.com/alexlawrence/grunt-umd.git",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt": "~0.4.1",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "request": "~2.27.0"
+  }
+}
